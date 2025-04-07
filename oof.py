@@ -4,7 +4,7 @@ root = Tk()
 root.title('Getting Started with Widgets')
 root.geometry ('400x300')
 lbl =Label(text="Hey There!", fg="white", bg="#672F5F", height=1, width=300)
-name_1b1 =Label (text= "Full Name", bg="#389503")
+name_1b1 =Label (text= "Full Name", bg="blue")
 name_entry = Entry()
 def display():
     name= name_entry.get()
